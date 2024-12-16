@@ -66,12 +66,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/server-health-check.sh
 
+
 ### 2. Automated Backup
 **Script**: `scripts/automated-backup.sh`
 **Description**: Backs up a specified directory to a remote server.
 **Usage**:
 ```bash
 ./scripts/automated-backup.sh
+
 
 ### 3. Log Rotation
 **Script**: `scripts/log-rotation.sh`
@@ -80,12 +82,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/log-rotation.sh
 
+
 ### 4. Docker Cleanup
 **Script**: `scripts/docker-cleanup.sh`
 **Description**: Cleans up unused Docker containers, images, and volumes.
 **Usage**:
 ```bash
 ./scripts/docker-cleanup.sh
+
 
 ### 5. Database Backup
 **Script**: `scripts/database-backup.sh`
@@ -94,12 +98,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/database-backup.sh
 
+
 ### 6. CI/CD Build Trigger
 **Script**: `scripts/cicd-build-trigger.sh`
 **Description**: Triggers a Jenkins build via API.
 **Usage**:
 ```bash
 ./scripts/cicd-build-trigger.sh
+
 
 ### 7. AWS EC2 Instance Management
 **Script**: `scripts/aws-ec2-instance-management.sh`
@@ -108,12 +114,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/aws-ec2-instance-management.sh <start|stop|restart>
 
+
 ### 8. Kubernetes Pod Monitor
 **Script**: `scripts/kubernetes-pod-monitor.sh`
 **Description**: Lists all pods and their status in a Kubernetes namespace.
 **Usage**:
 ```bash
 ./scripts/kubernetes-pod-monitor.sh
+
 
 ### 9. SSL Certificate Expiry Check
 **Script**: `scripts/ssl-expiry-check.sh`
@@ -122,12 +130,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/ssl-expiry-check.sh
 
+
 ### 10. User Account Audit
 **Script**: `scripts/user-account-audit.sh`
 **Description**: Lists all users and their last login times.
 **Usage**:
 ```bash
 ./scripts/user-account-audit.sh
+
 
 ### 11. Git Repository Cleaner
 **Script**: `scripts/git-repo-cleanup.sh`
@@ -136,12 +146,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/git-repo-cleanup.sh
 
+
 ### 12. CI/CD Artifact Cleanup
 **Script**: `scripts/cicd-artifact-cleanup.sh`
 **Description**: Deletes old artifacts in a specified directory to free up disk space.
 **Usage**:
 ```bash
 ./scripts/cicd-artifact-cleanup.sh
+
 
 ### 13. Load Balancer Health Check
 **Script**: `scripts/aws-loadbalancer-health-check.sh`
@@ -150,12 +162,14 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/aws-loadbalancer-health-check.sh
 
+
 ### 14. Ansible Playbook Runner
 **Script**: `scripts/ansible-playbook-runner.sh`
 **Description**: Executes an Ansible playbook and logs the output for review.
 **Usage**:
 ```bash
 ./scripts/ansible-playbook-runner.sh
+
 
 ### 15. Application Deployment
 **Script**: `scripts/application-deployment-script.sh`
@@ -164,6 +178,7 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/application-deployment-script.sh
 
+
 ### 16. Firewall Rule Manager
 **Script**: `scripts/firewall-rule-manager.sh`
 **Description**: Adds or removes firewall rules dynamically and reloads the configuration.
@@ -171,12 +186,15 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/firewall-rule-manager.sh
 
+
 ### 17. Cron Job Manager
 **Script**: `scripts/cronjob-manager.sh`
 **Description**: Lists all cron jobs for all system users.
 **Usage**:
 ```bash
 ./scripts/cronjob-manager.sh
+
+
 ### 18. Log Analysis
 **Script**: `scripts/log-analytiqs-script.sh`
 **Description**: Counts the number of occurrences of a specific log level (e.g., ERROR) in a log file.
@@ -184,18 +202,22 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 ```bash
 ./scripts/log-analytiqs-script.sh
 
+
 ### 19. Dynamic Inventory for Ansible
 **Script**: `scripts/dynamic-inventory-for-ansible.sh`
 **Description**: Creates a dynamic inventory file from live AWS EC2 instances for Ansible.
 **Usage**:
 ```bash
 ./scripts/dynamic-inventory-for-ansible.sh
+
+
 ### 20. System Patch Management
 **Script**: `scripts/system-patch-management.sh`
 **Description**: Automates system updates and logs the output for compliance or review.
 **Usage**:
 ```bash
 ./scripts/system-patch-management.sh
+
 
 ###Contribution
 Feel free to contribute by adding new scripts or improving existing ones. Submit a pull request or open an issue for any suggestions or bugs.
