@@ -62,27 +62,27 @@ A collection of **20 impactful shell scripts** designed for DevOps engineers to 
 
 ## Scripts
 1. Server Health Check
-**Script**: `scripts/server-health-check.sh`  
-**Description**: Monitors CPU, memory, disk usage, and network status.  
-**Usage**:
-```bash
-./scripts/server-health-check.sh
+   **Script**: `scripts/server-health-check.sh`  
+   **Description**: Monitors CPU, memory, disk usage, and network status.  
+   **Usage**:
+   ```bash
+   ./scripts/server-health-check.sh
 
 
 2. Automated Backup
-**Script**: `scripts/automated-backup.sh`
-**Description**: Backs up a specified directory to a remote server.
-**Usage**:
-```bash
-./scripts/automated-backup.sh
+   **Script**: `scripts/automated-backup.sh`
+   **Description**: Backs up a specified directory to a remote server.
+   **Usage**:
+   ```bash
+   ./scripts/automated-backup.sh
 
 
 3. Log Rotation
-**Script**: `scripts/log-rotation.sh`
-**Description**: Rotates and compresses logs older than 7 days, deletes logs older than 30 days.
-*Usage**:
-```bash
-./scripts/log-rotation.sh
+   **Script**: `scripts/log-rotation.sh`
+   **Description**: Rotates and compresses logs older than 7 days, deletes logs older than 30 days.
+   **Usage**:
+   ```bash
+   ./scripts/log-rotation.sh
 
 
 4. Docker Cleanup**
